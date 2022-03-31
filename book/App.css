@@ -1,0 +1,178 @@
+﻿/*styling.css*/
+/*add font family, background image*/
+
+body {
+  color: #5bc0de;
+  font-family: "Poppins", sans-serif;
+}
+.col-xs-4{
+  margin-left: 25px;
+}
+
+.fa-map-marker-alt,
+.fa-dot-circle {
+  color: #5bc0de;
+}
+i{
+  font-size: 25px;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: aqua;
+  /* -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; */
+}
+
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+.nine h1 {
+  text-align:center; font-size:70px; text-transform:uppercase; color:#222; letter-spacing:1px;
+  font-family:"Playfair Display", serif; font-weight:400;
+}
+.nine h1 span {
+  margin-top: 5px;
+    font-size:25px; color:rgb(0, 204, 255); word-spacing:1px; font-weight:normal; letter-spacing:2px;
+    text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.nine h1 span:after,.nine h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+
+/*Jumbotron*/
+.jumbotron {
+  background-color: transparent;
+  margin: 0;
+  padding: 10px;
+}
+
+.jumbotron h1 {
+  letter-spacing: 2.5px;
+  font-size: 3.5em;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  text-align: center;
+}
+
+/*map*/
+#googleMap {
+  width: 85%;
+  height: 700px;
+  margin: 10px auto;
+}
+
+/*output box*/
+#output {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px auto;
+}
+
+#mode {
+  color: black;
+}
+#date{
+  margin: auto;
+}
+
+
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 6px 70px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 190px;
+}
+
+
+
+
+
+#date input {
+  margin: 8px 550px;
+  font: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+  color: inherit;
+}
+#date h2{
+  margin-left: 500px;
+}
+
+
+#date input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px 70px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 290px;
+}
+
+
+#time input {
+  margin: 10px 550px;
+  font: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+  color: inherit;
+}
+#time h2{
+  margin-left: 500px;
+}
+
+
+#time input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px 90px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 290px;
+}
+
+#yes{
+  margin-left: 305px;
+
+}
